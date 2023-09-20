@@ -14,5 +14,18 @@ public class ChangingElement {
         // VarName.set(index,Elemnt);
         Str.set(1,"Love");
         System.out.println(Str);
+
+        // ---or--- 
+
+        Str.add("I"); // index 0
+        Str.add("Anmol"); // index 1
+
+        System.out.println(Str);    // output : I Anmol
+
+        Str.add(4,"am"); // Replace The String to next index and set there in index 1
+        System.out.println(Str); // output : i am anmol
+
+        Str.set(1,"hate");
+        System.out.println(Str);
     }
 }

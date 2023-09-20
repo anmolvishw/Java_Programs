@@ -12,5 +12,7 @@ public class ArrayList_addAtIndex {
        intt.add(0,55); // Index : 0, Size : 0
         System.out.println(intt);
 
+        
+
     }
 }

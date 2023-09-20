@@ -23,7 +23,13 @@ public class ArrayList_Print {
         System.out.println(str);
         System.out.println(intt);
         
-        //Using for loop Each
+        //Using foreach loop 
+
+        for(int i=0; i<str.size(); i++){
+            System.out.println(str.get(i));
+            System.out.println(intt.get(i));
+        }
+
         for(String i:str){
                 System.out.print(i+" ");
         }
