@@ -36,6 +36,18 @@ public class ArrayList_Print {
         for(int i: intt)
             System.out.print(i+" ");
         
+            // for Each of lambda 
+System.out.println();
+
+            str.forEach((i)-> print(i));
+            intt.forEach((i)-> print(i));
         
+    }
+    // print fun
+    private static void print(String i){
+            System.out.println("in Array list of str : "+i);
+    }
+    private static void print(int i){
+            System.out.println("in Array list of intt : "+i);
     }
 }
