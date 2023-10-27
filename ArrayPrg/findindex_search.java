@@ -1,6 +1,6 @@
 package ArrayPrg;
 
-public class findindex {
+public class findindex_search {
     public static int findIndexUsingLinearSearch(int arr[],int key){
         for(int i=0; i<arr.length; i++)
             if(arr[i]==key)
