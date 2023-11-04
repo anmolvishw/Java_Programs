@@ -1,4 +1,5 @@
 // CLASS
+package OOPS;
 class ex{
     int a=10;
     String str="Hello Anmol";

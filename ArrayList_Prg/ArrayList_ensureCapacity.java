@@ -19,7 +19,6 @@ public class ArrayList_ensureCapacity {
         System.out.println(intt);
 
        } catch (Exception e) {
-        // TODO: handle exception
         System.out.println(e);
        }
     }

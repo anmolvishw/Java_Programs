@@ -1,6 +1,6 @@
 package Sorting;
 
-public class selectionSort {
+public class selectionSort {  // O(n^2)
     public static void solution(int arr[]){
         for(int i=0; i<arr.length; i++){
             int minPos = i;

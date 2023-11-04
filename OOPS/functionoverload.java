@@ -1,3 +1,5 @@
+package OOPS;
+
 class function{
     int x=10;
     int y=20;
@@ -19,7 +21,7 @@ class function{
         System.out.println("Function with int string argu");
     }
 
-}
+} 
 public class functionoverload{
     public static void main(String[] args) {
         // here accessing someexp java file class varible or fun with the help of pkg

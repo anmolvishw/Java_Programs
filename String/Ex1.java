@@ -1,4 +1,4 @@
-package String_prg;
+package String;
 
 public class Ex1 {
     public static void main(String[] args) {
