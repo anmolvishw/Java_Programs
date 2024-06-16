@@ -18,6 +18,7 @@ public class rainWater_Trapping_DSA_que {
                     rightMax[i] = Math.max(rightMax[i+1],arr[i]);
                 }
 
+                
             int trapped=0;
                 for(int i=0; i<arr.length; i++){
                     int wall=Math.min(rightMax[i],leftMax[i]);
@@ -25,6 +26,14 @@ public class rainWater_Trapping_DSA_que {
                 }
 
             System.out.println("Trapped Water is  : "+ trapped);
+            // for(int i: leftMax){
+            //     System.err.print(i+" ");
+            // }
+            // System.err.println();
+            // for(int i: rightMax){
+            //     System.err.print(i+" ");
+            // }
+
     }
     public static void main(String[] args) {
         int arr[]= {4, 2, 0, 6, 3, 2, 5};

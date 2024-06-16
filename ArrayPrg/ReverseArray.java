@@ -25,6 +25,7 @@ public class ReverseArray {
         for(int i : arr){
             System.out.print(" "+i);
         }
+        System.out.println();
 
     }
 }

@@ -9,9 +9,13 @@ public class MaxSubArray_Brute_Solution {
                     add=0;
                     for(int k=i; k<=j; k++){
                         add+=arr[k];
+                        
+                        System.out.print(i+" = "+add+", ");
                     }
+                    System.out.println();
                     max=Integer.max(max,add);
                 }
+                System.out.println();
             }
             System.out.println("Max is : "+max);
     }
