@@ -18,4 +18,3 @@ public class MaxSubArray_Kadane_Solution {
         getMaxSubArray(arr);
     }
 }
-+
